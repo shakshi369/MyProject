@@ -1,0 +1,64 @@
+.container-update {
+  max-width: 500px;
+  margin: 70px auto;
+  padding: 40px 30px;
+  background: linear-gradient(145deg, #a7cdf5, #f5f5f5);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.container-update h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Horizontal line */
+.container-update hr {
+  margin: 10px auto 25px;
+  width: 60%;
+  border: none;
+  border-top: 2px solid #494fe8;
+}
+
+/* Input fields */
+.container-update input[type="text"] {
+  width: 92%;
+  padding: 12px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.container-update input[type="text"]:focus {
+  border-color: #4a90e2;
+}
+
+/* Submit button */
+.container-update button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #55a1ed;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.container-update button:hover {
+  background-color: #d62828;
+  transform: scale(1.03);
+}
+
+.container-update button:active {
+  transform: scale(0.98);
+}

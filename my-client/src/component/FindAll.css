@@ -1,0 +1,87 @@
+/*.main-container
+{
+  border:50px solid black;
+  width: 40%;
+  text-align: centre;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
+}*/
+
+/* Whole page container */
+.findall-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #c2dbf2;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.findall-container h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.findall-container hr {
+  width: 60%;
+  margin: 10px auto 30px;
+  border: none;
+  border-top: 2px solid #415cd7;
+}
+
+/* Button */
+.findall-container form button {
+  background-color: #2f5ab7;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background 0.3s ease;
+}
+
+.findall-container form button:hover {
+  background-color: #d62828;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table thead {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 15px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #eef6ff;
+}
+
+/* No Record row */
+table td[colspan="4"] {
+  color: #999;
+  font-style: italic;
+  padding: 20px;
+}

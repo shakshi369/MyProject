@@ -1,0 +1,85 @@
+/* Main container */
+.Add {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: linear-gradient(145deg, #c0ddf6, #f0f0f0);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.Add h1 {
+  font-size: 28px;
+  color: #080506;
+  margin-bottom: 25px;
+}
+/* Divider */
+.Add hr {
+  width: 50%;
+  margin: 10px auto 25px;
+  border: none;
+  border-top: 2px solid #3748dd;
+}
+
+/* Input fields */
+.Add input[type="text"],
+.Add input[type="number"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.Add input[type="text"]:focus,
+.Add input[type="number"]:focus {
+  border-color: #4a90e2;
+}
+
+/* Submit button */
+.Add input[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #4c79eb;
+  color: #f4ebeb;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.Add input[type="submit"]:hover {
+  background-color: #d62828;
+  transform: scale(1.03);
+}
+
+.Add input[type="submit"]:active {
+  transform: scale(0.97);
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 600px) {
+  .Add {
+    padding: 25px 20px;
+    margin: 30px 15px;
+  }
+
+  .Add h1 {
+    font-size: 22px;
+  }
+
+  .Add input[type="text"],
+  .Add input[type="number"],
+  .Add input[type="submit"] {
+    font-size: 15px;
+  }
+}

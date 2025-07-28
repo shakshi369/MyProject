@@ -1,0 +1,77 @@
+.find-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 35px 30px;
+  background: linear-gradient(to right, #a0d2f1, #f6f6f6);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.find-container h3 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+/* Divider */
+.find-container hr {
+  width: 60%;
+  margin: 10px auto 25px;
+  border: none;
+  border-top: 2px solid #3f52ce;
+}
+
+/* Input field */
+.find-container input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 25px;
+  transition: border-color 0.3s;
+}
+
+.find-container input[type="text"]:focus {
+  border-color: #4a90e2;
+}
+
+/* Button */
+.find-container button {
+  width: 100%;
+  padding: 13px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.find-container button:hover {
+  background-color: #c33535;
+  transform: scale(1.03);
+}
+
+.find-container button:active {
+  transform: scale(0.97);
+}
+
+/* Employee info */
+.find-container h4 {
+  margin-top: 25px;
+  font-size: 20px;
+  color: #333;
+}
+
+.find-container p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
