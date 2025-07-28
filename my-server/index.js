@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
-
+const port ='https://frontend-unbq.onrender.com';
 // Middleware
 app.use(express.json());
 app.use(cors());
@@ -134,7 +134,7 @@ app.put('/api/employees/:id',async(req,res) => {
 
 
 
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log('Server is running on http://localhost:3001');
 });
 
